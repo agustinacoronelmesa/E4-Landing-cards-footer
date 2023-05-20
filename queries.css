@@ -140,6 +140,7 @@ height: 200px;
 .contenedor-titulo h1 {
     font-size: 25px;
     margin-left: none;
+    margin-right: 60px;
 }
 .caja-uno {
     width: 400px;
