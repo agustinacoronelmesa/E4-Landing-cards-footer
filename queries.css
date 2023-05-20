@@ -122,6 +122,20 @@ height: 200px;
 }
 .contenedor-hero {
     flex-direction: column-reverse;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-presentacion {
+    width: 80%;
+}
+.contenedor-titulo {
+    width: 80%;
+}
+
+.caja-uno {
+    width: 80%;
 }
 .contenedor-titulo h1 {
     font-size: 25px;
@@ -130,8 +144,8 @@ height: 200px;
 .caja-uno {
     width: 400px;
 }
-.logo-principal img {
-height: 200px;
+.logo-principal {
+display: none;
 }
 .about-title {
     font-size: 25px;
@@ -159,15 +173,16 @@ font-size: 25px;
     gap: 25px;
 }
 .form-contact {
-    margin-top: 1100px;
+    margin-top: 1900px;
     flex-direction: column;
     gap: 22px;
 }
 .contenedor-contacto {
     margin-bottom: 20px;
     margin-right: 185px;
+    align-items: center;
 }
 .contact-logos-in-footer-title h2 {
-    font-size: 30px;
+    font-size: 20px;
 }
 }
